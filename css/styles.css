@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+background: #fff;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 156px;
+}
+
+.gallery-item{
+    width: calc((100% - 24px * 2) / 3);
+}
+
+
+.gallery-image{
+    width: 360px;
+    height: 200px;
+}
